@@ -35,9 +35,9 @@ properties:
       datatype: float
       destination: [WFIExposure.image_median]
   image_rms:
-    title: Image Mean Absolute Deviation (DN/s)
+    title: Image MAD standard deviation (DN/s)
     description: |
-      Mean absolute deviation of the image values in
+      MAD standard deviation of the image values in
       units of data numbers per second (DN/s).
     type: number
     sdf:
